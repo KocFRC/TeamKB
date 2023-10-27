@@ -15,9 +15,11 @@ permissions:
 
 env:
   # Name of module and id separated by a slash
-  INSTANCE: Writerside/R7729_Team_2223
+  INSTANCE1: Writerside/R7729_Team_2223
+  INSTANCE2: Writerside/R7729_Team_2324
   # Replace HI with the ID of the instance in capital letters
-  ARTIFACT: webHelpR7729_TEAM_22232-all.zip
+  ARTIFACT1: webHelpR7729_TEAM_22232-all.zip
+  ARTIFACT2: webHelpR7729_TEAM_23242-all.zip
   # Writerside docker image version
   DOCKER_VERSION: 2.1.1479-p3869
 
@@ -32,16 +34,32 @@ jobs:
       - name: Build Writerside docs using Docker
         uses: JetBrains/writerside-github-action@v4
         with:
-          instance: ${{ env.INSTANCE }}
-          artifact: ${{ env.ARTIFACT }}
+          instance: ${{ env.INSTANCE1 }}
+          artifact: ${{ env.ARTIFACT1 }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
       - name: Upload documentation
         uses: actions/upload-artifact@v3
         with:
-          name: docs
+          name: team23
           path: |
-            artifacts/${{ env.ARTIFACT }}
+            artifacts/${{ env.ARTIFACT1 }}
+            artifacts/report.json
+          retention-days: 7
+
+      - name: Build Writerside docs using Docker
+        uses: JetBrains/writerside-github-action@v4
+        with:
+          instance: ${{ env.INSTANCE2 }}
+          artifact: ${{ env.ARTIFACT2 }}
+          docker-version: ${{ env.DOCKER_VERSION }}
+
+      - name: Upload documentation
+        uses: actions/upload-artifact@v3
+        with:
+          name: team24
+          path: |
+            artifacts/${{ env.ARTIFACT2 }}
             artifacts/report.json
           retention-days: 7
 
@@ -63,7 +81,18 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v1
         with:
-          name: docs
+          name: team23
+          path: artifacts
+
+      - name: Test documentation
+        uses: JetBrains/writerside-checker-action@v1
+        with:
+          instance: ${{ env.INSTANCE }}
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v1
+        with:
+          name: team24
           path: artifacts
 
       - name: Test documentation
@@ -82,12 +111,22 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
-          name: docs
+          name: team23
 
       - name: Unzip artifact
         uses: montudor/action-zip@v1
         with:
           args: unzip -qq ${{ env.ARTIFACT }} -d team23
+
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: team24
+
+      - name: Unzip artifact
+        uses: montudor/action-zip@v1
+        with:
+          args: unzip -qq ${{ env.ARTIFACT }} -d team24
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
@@ -95,7 +134,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: team23
+          path: .
 
       - name: Deploy to GitHub Pages
         id: deployment
