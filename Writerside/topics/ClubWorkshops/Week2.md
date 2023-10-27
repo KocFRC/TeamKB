@@ -54,7 +54,7 @@ Aşağıdaki devreyi breadboard üzerinde kurun. Kabloların rengine dikkat etme
 
 Arduino IDE'yi açın, yeni bir proje oluşturun ve aşağıdaki kodu yapıştırın. Arduino'yu bilgisayarınıza bağladıktan sonra sol üstteki ok işareti ile kodu Arduino'ya gönderin.
 
-```cpp
+```C++
 #define LED_PIN 12
 
 void setup() {

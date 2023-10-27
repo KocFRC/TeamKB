@@ -10,9 +10,9 @@ Bu sayfadan kulübün 2022 - 2023 sezonu liderlik ekibinin iletişim bilgilerine
 
 | **İsim** | **Görev** | **E-Posta** |
 | --- | --- | --- |
-| Yiğit Kerem Oktay | Kulüp Başkanı,<br>Takım Kaptanı | [yigitkerem@rams7729.org](mailto:yigitkerem@rams7729.org) |
+| Yiğit Kerem Oktay | Kulüp Başkanı,Takım Kaptanı | [yigitkerem@rams7729.org](mailto:yigitkerem@rams7729.org) |
 | Merve Çakır | Robotik Bölüm Lideri, Takım Kaptan Yardımcısı | [merve.cakir@rams7729.org](mailto:merve.cakir@rams7729.org) |
-| Nilsu Gür | PR Bölüm Lideri,<br>Takım Kaptan Yardımcısı | [nilsu.gur@rams7729.org](https://nilsu.gur@rams7729.org) |
+| Nilsu Gür | PR Bölüm Lideri,Takım Kaptan Yardımcısı | [nilsu.gur@rams7729.org](https://nilsu.gur@rams7729.org) |
 | Ece Gürler | Kulüp Onursal Başkanı | [ece.gurler@rams7729.org](mailto:ece.gurler@rams7729.org) |
 | Mustafa Tuna Tasalı | Kulüp Onursal Başkanı | [tuna.tasali@rams7729.org](mailto:tuna.tasali@rams7729.org) |
 | Alp Solakoğlu | Kulüp Onursal Başkanı | [alp.solakoglu@rams7729.org](mailto:alp.solakoglu@rams7729.org) |
