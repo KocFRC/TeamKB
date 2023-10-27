@@ -3,43 +3,43 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="R7729_Team_2223"
-                  name="Takım Üyeleri" start-page="Dijital Servislerin Kullanımı.md">
+                  name="Takım Üyeleri" start-page="DigitalServices.md">
 
     <toc-element toc-title="Dijital Servisler">
-        <toc-element topic="Kullanıcı Adları ve Şifreler Hakkında.md"/>
-        <toc-element topic="Meraklıları için Kimlik Doğrulama Sistemi Hakkında.md"/>
-        <toc-element topic="Office 365.md"/>
-        <toc-element topic="Dijital Servislerin Kullanımı.md"/>
+        <toc-element topic="UsernamesANDPasswords.md"/>
+        <toc-element topic="AboutIDS.md"/>
+        <toc-element topic="Office365.md"/>
+        <toc-element topic="DigitalServices.md"/>
         <toc-element
-                topic="Procedural Information on the Treatment of Confidential Data at The Koc School FRC Club and RAMs #7729.md"/>
+                topic="ConfidentialInformationProcedures.md"/>
     </toc-element>
     <toc-element toc-title="Kulüp Bilgilendirmeleri">
-        <toc-element topic="Slab'de Handout Oluşturma.md"/>
-        <toc-element topic="Kulüp Eğitimleri Hazırlık Prosedürü.md"/>
-        <toc-element topic="2023 İstanbul Regional Ziyaretçi Bilgilendirmesi.md"/>
-        <toc-element topic="Kulüp Eğitimleri Listesi.md"/>
-        <toc-element topic="Takım Üyeleri için Koç Okulu FRC Kulübü ve Çalışmaları Bilgilendirmesi.md"/>
+        <toc-element topic="SlabHandouts.md"/>
+        <toc-element topic="ClubWorkshopPreparations.md"/>
+        <toc-element topic="TUIS23Visitor.md"/>
+        <toc-element topic="ClubWorkshopList.md"/>
+        <toc-element topic="TeamMembersClubOverview.md"/>
     </toc-element>
     <toc-element toc-title="Kulüp Eğitimleri">
-        <toc-element topic="1. Hafta Icebreaker &amp; Arduino IDE Kurulumu.md"/>
-        <toc-element topic="2. Hafta Arduino ile LED Blink Devresi.md"/>
-        <toc-element topic="3. Hafta Sticker Tasarımı Atölyesi.md"/>
+        <toc-element topic="Week1.md"/>
+        <toc-element topic="Week2.md"/>
+        <toc-element topic="Week3.md"/>
     </toc-element>
     <toc-element toc-title="Kulüp Yönetimi">
-        <toc-element topic="PR Takımı Hakkında.md"/>
-        <toc-element topic="2022 - 2023 Mülakat Prosedürleri ve Kuralları.md"/>
-        <toc-element topic="Kulüp İletişim Bilgileri.md"/>
-        <toc-element topic="PR Takımı Başvuruları Hakkında.md"/>
-        <toc-element topic="Kulüp İletişim Şeması.md"/>
-        <toc-element topic="Kulüp İletişim Bilgileri-zlyd6xtt.md"/>
+        <toc-element topic="AboutPR.md"/>
+        <toc-element topic="IVProcedures.md"/>
+        <toc-element topic="ClubContact.md"/>
+        <toc-element topic="PRApplications.md"/>
+        <toc-element topic="ContactScheme.md"/>
+        <toc-element topic="LegacyClubContacts.md"/>
     </toc-element>
     <toc-element toc-title="Veli Bilgilendirmeleri">
-        <toc-element topic="2022 - 2023 Sezonu Veli Bilgilendirmesi.md"/>
-        <toc-element topic="2022 - 2023 Sezonu Veli Onay Yönergesi (Yeni üyeler).md"/>
+        <toc-element topic="ParentInfo.md"/>
+        <toc-element topic="NewParentCR.md"/>
     </toc-element>
     <toc-element toc-title="Workshoplar">
-        <toc-element topic="29 Temmuz - Intellij Edu Onboarding Workshop'ı.md"/>
-        <toc-element topic="18 - 29 Temmuz - Güncel Workshop Programı.md"/>
+        <toc-element topic="IntelliJWorkshop1.md"/>
+        <toc-element topic="SummerWorkshops1.md"/>
     </toc-element>
     <toc-element topic="Starter.md"/>
 </instance-profile>
