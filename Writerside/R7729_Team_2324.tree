@@ -4,7 +4,7 @@
 
 <instance-profile id="R7729_Team_2324"
                  name="Takım Üyeleri"
-                 start-page="tak-m-yeleri.md">
+                 start-page="T24Welcome.md">
 
-    <toc-element topic="tak-m-yeleri.md"/>
+    <toc-element topic="T24Welcome.md"/>
 </instance-profile>

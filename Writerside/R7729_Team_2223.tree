@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="R7729_Team_2223"
-                  name="Takım Üyeleri" start-page="DigitalServices.md">
+                  name="Takım Üyeleri" start-page="T23Welcome.md">
 
     <toc-element toc-title="Dijital Servisler">
         <toc-element topic="UsernamesANDPasswords.md"/>
@@ -41,5 +41,5 @@
         <toc-element topic="IntelliJWorkshop1.md"/>
         <toc-element topic="SummerWorkshops1.md"/>
     </toc-element>
-    <toc-element topic="Starter.md"/>
+    <toc-element topic="T23Welcome.md"/>
 </instance-profile>
