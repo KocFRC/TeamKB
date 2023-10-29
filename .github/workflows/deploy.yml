@@ -17,9 +17,16 @@ env:
   # Name of module and id separated by a slash
   INSTANCE1: Writerside/R7729_Team_2223
   INSTANCE2: Writerside/R7729_Team_2324
+  INSTANCE3: Writerside/R7729_Parents_2324
+  INSTANCE4: Writerside/R7729_Club_2324
+  INSTANCE5: Writerside/R7729_CA_2324
   # Replace HI with the ID of the instance in capital letters
   ARTIFACT1: webHelpR7729_TEAM_22232-all.zip
   ARTIFACT2: webHelpR7729_TEAM_23242-all.zip
+  ARTIFACT3: webHelpR7729_PARENTS_23242-all.zip
+  ARTIFACT4: webHelpR7729_CLUB_23242-all.zip
+  ARTIFACT5: webHelpR7729_CA_23242-all.zip
+
   # Writerside docker image version
   DOCKER_VERSION: 2.1.1479-p3869
 
@@ -63,6 +70,54 @@ jobs:
             artifacts/report.json
           retention-days: 7
 
+      - name: Build Writerside docs using Docker
+        uses: JetBrains/writerside-github-action@v4
+        with:
+          instance: ${{ env.INSTANCE3 }}
+          artifact: ${{ env.ARTIFACT3 }}
+          docker-version: ${{ env.DOCKER_VERSION }}
+
+      - name: Upload documentation
+        uses: actions/upload-artifact@v3
+        with:
+          name: parents24
+          path: |
+            artifacts/${{ env.ARTIFACT3 }}
+            artifacts/report.json
+          retention-days: 7
+
+      - name: Build Writerside docs using Docker
+        uses: JetBrains/writerside-github-action@v4
+        with:
+          instance: ${{ env.INSTANCE4 }}
+          artifact: ${{ env.ARTIFACT4 }}
+          docker-version: ${{ env.DOCKER_VERSION }}
+
+      - name: Upload documentation
+        uses: actions/upload-artifact@v3
+        with:
+          name: club24
+          path: |
+            artifacts/${{ env.ARTIFACT5 }}
+            artifacts/report.json
+          retention-days: 7
+
+      - name: Build Writerside docs using Docker
+        uses: JetBrains/writerside-github-action@v4
+        with:
+          instance: ${{ env.INSTANCE5 }}
+          artifact: ${{ env.ARTIFACT5 }}
+          docker-version: ${{ env.DOCKER_VERSION }}
+
+      - name: Upload documentation
+        uses: actions/upload-artifact@v3
+        with:
+          name: candidates24
+          path: |
+            artifacts/${{ env.ARTIFACT5 }}
+            artifacts/report.json
+          retention-days: 7
+
       # Add the step below to upload Algolia indexes
       - name: Upload algolia-indexes
         uses: actions/upload-artifact@v3
@@ -100,6 +155,40 @@ jobs:
         with:
           instance: ${{ env.INSTANCE2 }}
 
+      - name: Download artifacts
+        uses: actions/download-artifact@v1
+        with:
+          name: parents24
+          path: artifacts
+
+      - name: Test documentation
+        uses: JetBrains/writerside-checker-action@v1
+        with:
+          instance: ${{ env.INSTANCE3 }}
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v1
+        with:
+          name: club24
+          path: artifacts
+
+      - name: Test documentation
+        uses: JetBrains/writerside-checker-action@v1
+        with:
+          instance: ${{ env.INSTANCE4 }}
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v1
+        with:
+          name: candidates24
+          path: artifacts
+
+      - name: Test documentation
+        uses: JetBrains/writerside-checker-action@v1
+        with:
+          instance: ${{ env.INSTANCE5 }}
+
+
   deploy:
     environment:
       name: github-pages
@@ -127,6 +216,36 @@ jobs:
         uses: montudor/action-zip@v1
         with:
           args: unzip -qq ${{ env.ARTIFACT1 }} -d team23
+
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: parents24
+
+      - name: Unzip artifact
+        uses: montudor/action-zip@v1
+        with:
+          args: unzip -qq ${{ env.ARTIFACT3 }} -d parents24
+
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: club24
+
+      - name: Unzip artifact
+        uses: montudor/action-zip@v1
+        with:
+          args: unzip -qq ${{ env.ARTIFACT4 }} -d club24
+
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: candidates24
+
+      - name: Unzip artifact
+        uses: montudor/action-zip@v1
+        with:
+          args: unzip -qq ${{ env.ARTIFACT5 }} -d candidates24
 
       - name: Setup Pages
         uses: actions/configure-pages@v2

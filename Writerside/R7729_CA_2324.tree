@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="R7729_CA_2324"
+                 name="Üye Adayları"
+                 start-page="C24Welcome.md">
+
+    <toc-element topic="C24Welcome.md"/>
+</instance-profile>

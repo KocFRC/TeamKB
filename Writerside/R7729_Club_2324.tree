@@ -2,7 +2,9 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="hi" name="Help Instance"
-                 start-page="">
+<instance-profile id="R7729_Club_2324"
+                 name="Kulüp Üyeleri"
+                 start-page="Club24Welcome.md">
 
+    <toc-element topic="Club24Welcome.md"/>
 </instance-profile>

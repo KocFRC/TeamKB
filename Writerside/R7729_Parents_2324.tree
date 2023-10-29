@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="R7729_Parents_2324"
+                 name="Veliler"
+                 start-page="P24Welcome.md">
+
+    <toc-element topic="P24Welcome.md"/>
+</instance-profile>
