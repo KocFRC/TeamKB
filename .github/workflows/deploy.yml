@@ -98,7 +98,7 @@ jobs:
         with:
           name: club24
           path: |
-            artifacts/${{ env.ARTIFACT5 }}
+            artifacts/${{ env.ARTIFACT4 }}
             artifacts/report.json
           retention-days: 7
 
