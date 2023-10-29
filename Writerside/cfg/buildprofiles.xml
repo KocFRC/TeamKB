@@ -6,15 +6,27 @@
         <versions-switcher>https://static.rams7729.org/kb/switcher.json</versions-switcher>
         <header-logo>logo.png</header-logo>
     </variables>
-    <build-profile instance="R7729_Team">
+    <build-profile instance="R7729_Team_2223">
         <variables>
+            <versions-switcher>https://static.rams7729.org/kb/switcher.json</versions-switcher>
+            <header-logo>logo.png</header-logo>
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
-    <build-profile instance="tü">
+    <build-profile instance="R7729_Team_2324">
         <variables>
+            <versions-switcher>https://static.rams7729.org/kb/switcher.json</versions-switcher>
+            <header-logo>logo.png</header-logo>
             <noindex-content>true</noindex-content>
         </variables>
+        <footer>
+            <copyright>2018 - 2024 Koç Okulu FRC Kulübü. Tüm hakları saklıdır.</copyright>
+            <social type="instagram" href="https://instagram.com/frcrams7729"/>
+            <social type="youtube" href="https://youtube.com/@kocfrc"/>
+            <social type="linkedin" href="https://linkedin.com/company/rams7729"/>
+            <social type="email"  href="mailto:team.support@rams7729.org"/>
+            <social type="blog" href="https://pulse.rams7729.org" />
+        </footer>
     </build-profile>
 
 </buildprofiles>
