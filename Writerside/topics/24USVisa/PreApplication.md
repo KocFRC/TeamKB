@@ -1,4 +1,4 @@
-# Gezi ve Vize Süreçleri için Ön Başvuru
+# Gezi ve Vize Süreçleri için Ön Başvuruları
 
 Vize konusunda destek isteyip istememenizden bağımsız olarak **3 Kasım 2023 günü saat 23.59’a** kadar [Kulüp Seyahat Organizasyonları Birimi'ne](mailto:travel.organisations@rams7729.org]) okul veritabanında kayıtlı veya kulüp bilgi sisteminde kayıtlı e-posta adresinden aşağıdaki bilgileri içeren bir e-postayı, öğrencinizin velisi olarak iletmelisiniz:
 - Sizin adınız,
