@@ -7,4 +7,10 @@
                  start-page="P24Welcome.md">
 
     <toc-element topic="P24Welcome.md"/>
+    <toc-element topic="VisaOverview.md">
+        <toc-element topic="PreApplication.md"/>
+        <toc-element topic="TravelContacts.md"/>
+        <toc-element topic="ClubSupport.md"/>
+        <toc-element topic="VisaSchedule.md"/>
+    </toc-element>
 </instance-profile>
