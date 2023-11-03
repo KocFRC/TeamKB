@@ -31,3 +31,7 @@ _Pazartesi, Salı, Perşembe: 15.45 - 17.30_ <br />
 
 
 *Ofis bilgileri en kısa sürede eklenecektir.*
+
+## Sıradaki Adımlar
+- [SSS](FAQ.md)
+- [Kişisel Verilerin Korunması](PrivacyOverview.md)

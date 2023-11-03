@@ -24,4 +24,5 @@ C: Kulübümüzün tüm karar mekanizmaları, Kulüp Tüzüğü olarak adlandır
 
 Özel talepleriniz için Kulüp Başkanı [Yiğit Kerem Oktay](mailto:yigitkerem@rams7729.org) ve Başkan Yardımcısı [Baran Çiftçi](mailto:baran.ciftci@rams7729.org) ile iletişime geçmeniz mümkündür. Bunun haricinde herhangi bir role sahip öğrencinin kimliği, rolü, görevleri ve kulüp üzerindeki karar yetkisi ancak kendisi tarafından paylaşılabilir.
 
-
+## Sıradaki Adımlar
+- [Kişisel Verilerin Korunması](PrivacyOverview.md)

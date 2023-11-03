@@ -9,3 +9,8 @@ Vize konusunda destek isteyip istememenizden bağımsız olarak **3 Kasım 2023 
 - Kulüp ile vize başvuru sürecini yürütüp yürütmek istemediğinizin bilgisi,
 
 E-postayı gönderdikten sonra lütfen tarafımızdan bir onay e-postası bekleyin. Eğer teyit alamadıysanız öğrenciniz aracılığı ile kulüp yönetimine doğrudan ulaşabilirsiniz.
+
+## Sıradaki Adımlar
+- [İletişim Bilgileri](TravelContacts.md)
+- [SSS](FAQ.md)
+- [Kişisel Verilerin Korunması](PrivacyOverview.md)
