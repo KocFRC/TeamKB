@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="faa709c">
+        <description>Created after removal of "Vize Süreçleri Takvimi" from Veliler</description>
+        <accepts>VisaSchedule.html</accepts>
+    </rule>
+    <rule id="62e00c7a">
+        <description>Created after removal of "Kulüp Tarafından Sağlanan Destekler" from Veliler</description>
+        <accepts>ClubSupport.html</accepts>
+    </rule>
+    <rule id="11ff3afe">
+        <description>Created after removal of "Gezi ve Vize Süreçleri için Ön Başvuruları" from Veliler</description>
+        <accepts>PreApplication.html</accepts>
+    </rule>
+</rules>
