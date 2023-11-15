@@ -26,9 +26,9 @@ Takımın önceliklendirmesinin tüm detayları ile belli olması, ancak tüm il
 |**Öngörülen Vize Süreçleri Takvimi**||
 |**15 Kasım 2023 - 23.59**| Vize mektubu için RAMs Portal'da öğrenci Pasaport/Kimlik Bilgilerinin tamamlanması |
 |**16 Kasım 2023 - 23.59**| Katılım ilgisi bildirmek için son tarih |
+|**16 Kasım 2023 - 23.59**| Vize mektubu KVKK formları için son tarih |
 |**17 Kasım 2023 - 23.59**| İlgilenen öğrenci ve velilere öncelik sıralarının ve değerlendirme kriterlerinin açıklanması |
-|**15 Kasım 2023 - 23.59**| Öncelik sırasının açıklanması ve vize mektubu KVKK formları için son tarih |
-|**16 Kasım 2023**| Vize süreci yönlendirmeleri |
+|**18 Kasım 2023**| Vize süreci yönlendirmeleri |
 |--------------------|--------------------------------------------|
 
 Tüm süreçlerimizin sürdürülmesinde öğrencilerin büyük bir katkısı olduğundan, öğrencilerin yoğun olmalarına ve işlemlerin uzamasına sebep olabilecek sınavlar gibi durumlar sebebiyle bu süreçler planlanandan uzayabilir. Son tarihleri öncesinde bilgi vermeksizin kaçıran velilere herhangi bir imtiyaz verilmeyecektir. Herhangi bir sürecin uzaması durumunda ilgilenen velilerimize bilgilendirme yapılacaktır.
