@@ -1,9 +1,9 @@
 # 2024 ABD Seyahati Vize Süreçleri Bilgilendirmesi
-Koç Okulu FRC Kulübü okulumuzun uzun süredir faaliyet gösteren kulüplerinden birisidir. Her yıl FRC adlı bir robotik yarışmasına katılan kulübümüz, Türkiye içerisinde ve koşullar el vermesi durumunda Amerika Birleşik Devletleri’nde turnuvalara katılmaktadır. FRC hakkında detaylı bilgi için geçen yıl hazırladığımız bilgilendirme yazmıza [bu bağlantı](https://kb.rams7729.org/team23/parentinfo.html) aracılığı ile erişebilirsiniz.
+Koç Okulu FRC Kulübü okulumuzun uzun süredir faaliyet gösteren kulüplerinden birisidir. Her yıl FRC adlı bir robotik yarışmasına katılan kulübümüz, Türkiye içerisinde ve koşullar el vermesi durumunda Amerika Birleşik Devletleri’nde turnuvalara katılmaktadır. 
 
 Pandemi sonrası süreçte takımımızın zorlaşan finansal ve vize sebepleri süreci sebebiyle ABD’deki yarışmalara katılıma geçici olarak ara verilmiş, 2020, 2021, 2022 ve 2023 yıllarında sadece yurt içerisindeki yarışmalara katılım sağlanmıştır.
 ### ABD Seyahati Duyurusu
-2024 yılı için kulübümüz ABD’deki bir yarışma etkinliğine katılım planlamıştır. ABD’de 4-7 Nisan 2024 tarihleri arasında Berkeley kentinde gerçekleşecek olan yarışma için, 3-12 Nisan 2024 (değişebilir) tarihleri arasında, bir gezi planlaması yapılacaktır. Yarışma tarihi ve yerinin sabit olmasına karşın gezi içerikleri, tarihleri ve seyahat acentası kesinleşmemiştir. Gezi programı ve fiyatı kesinleştiğinde tarafınıza iletilecektir. İçerik ve fiyat konusundaki sorularınız için [iletişim bilgilerimizi](https://kb.rams7729.org/parents24/travelcontacts.html) kullanarak bize ulaşabilirsiniz
+2024 yılı için kulübümüz ABD’deki bir yarışma etkinliğine katılım planlamıştır. ABD’de 4-7 Nisan 2024 tarihleri arasında Berkeley kentinde gerçekleşecek olan yarışma için, 3-12 Nisan 2024 (değişebilir) tarihleri arasında, bir gezi planlaması yapılacaktır. Yarışma tarihi ve yerinin sabit olmasına karşın gezi içerikleri, tarihleri ve seyahat acentası kesinleşmemiştir. Gezi programı ve fiyatı kesinleştiğinde tarafınıza iletilecektir. İçerik ve fiyat konusundaki sorularınız için [iletişim bilgilerimizi](https://kb.rams7729.org/parents24/travelcontacts.html) kullanarak bize ulaşabilirsiniz.
 ### Vize Süreci
 Geziye katılım ABD giriş tarihinden itibaren en az 6 ay geçerli bir vize gerektirmektedir. Öğrenciler halihazırda 2024 Ekim-Kasım'a veya daha sonrasına kadar geçerli bir vize ile katılabilir veya kulüp olarak sağladığımız desteklerden yararlanarak vizeye başvurabilir, acil randevu talep etmeyi deneyebilir. 
 ### Kulüp Tarafından Sağlanabilecek Vize Destekleri
@@ -24,11 +24,11 @@ Yönlendirmeden faydalanarak vize aracılık hizmetini kullanacak veliler ise 37
 Takımın önceliklendirmesinin tüm detayları ile belli olması, ancak tüm ilgilenen öğrencilerin belirlenmesi ile mümkün olacaktır. Aşağıdaki takvim dahilinde önceliklendirme süreci yürütülecek ve öncelikler dahilinde öğrencilere destek sağlanacaktır.
 
 |**Öngörülen Vize Süreçleri Takvimi**||
-|**15 Kasım 2023 - 23.59**| Vize mektubu için RAMs Portal'da öğrenci Pasaport/Kimlik Bilgilerinin tamamlanması |
-|**16 Kasım 2023 - 23.59**| Katılım ilgisi bildirmek için son tarih |
-|**16 Kasım 2023 - 23.59**| Vize mektubu KVKK formları için son tarih |
-|**17 Kasım 2023 - 23.59**| İlgilenen öğrenci ve velilere öncelik sıralarının ve değerlendirme kriterlerinin açıklanması |
-|**18 Kasım 2023**| Vize süreci yönlendirmeleri |
+|**17 Kasım 2023 - 23.59**| Vize mektubu için RAMs Portal'da öğrenci Pasaport/Kimlik Bilgilerinin tamamlanması |
+|**19 Kasım 2023 - 23.59**| Katılım ilgisi bildirmek için son tarih |
+|**20 Kasım 2023 - 23.59**| Vize mektubu KVKK formları için son tarih |
+|**21 Kasım 2023 - 23.59**| İlgilenen öğrenci ve velilere öncelik sıralarının ve değerlendirme kriterlerinin açıklanması |
+|**21 Kasım 2023**| Vize süreci yönlendirmeleri |
 |--------------------|--------------------------------------------|
 
 Tüm süreçlerimizin sürdürülmesinde öğrencilerin büyük bir katkısı olduğundan, öğrencilerin yoğun olmalarına ve işlemlerin uzamasına sebep olabilecek sınavlar gibi durumlar sebebiyle bu süreçler planlanandan uzayabilir. Son tarihleri öncesinde bilgi vermeksizin kaçıran velilere herhangi bir imtiyaz verilmeyecektir. Herhangi bir sürecin uzaması durumunda ilgilenen velilerimize bilgilendirme yapılacaktır.
