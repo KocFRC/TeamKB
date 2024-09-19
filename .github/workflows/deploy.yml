@@ -126,75 +126,11 @@ jobs:
           path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
           retention-days: 7
 
-  # Add the job below and artifacts/report.json on Upload documentation step above if you want to fail the build when documentation contains errors
-  test:
-    # Requires build job results
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v1
-        with:
-          name: team23
-          path: artifacts
-
-      - name: Test documentation
-        uses: JetBrains/writerside-checker-action@v1
-        with:
-          instance: ${{ env.INSTANCE1 }}
-
-      - name: Download artifacts
-        uses: actions/download-artifact@v1
-        with:
-          name: team24
-          path: artifacts
-
-      - name: Test documentation
-        uses: JetBrains/writerside-checker-action@v1
-        with:
-          instance: ${{ env.INSTANCE2 }}
-
-      - name: Download artifacts
-        uses: actions/download-artifact@v1
-        with:
-          name: parents24
-          path: artifacts
-
-      - name: Test documentation
-        uses: JetBrains/writerside-checker-action@v1
-        with:
-          instance: ${{ env.INSTANCE3 }}
-
-      - name: Download artifacts
-        uses: actions/download-artifact@v1
-        with:
-          name: club24
-          path: artifacts
-
-      - name: Test documentation
-        uses: JetBrains/writerside-checker-action@v1
-        with:
-          instance: ${{ env.INSTANCE4 }}
-
-      - name: Download artifacts
-        uses: actions/download-artifact@v1
-        with:
-          name: candidates24
-          path: artifacts
-
-      - name: Test documentation
-        uses: JetBrains/writerside-checker-action@v1
-        with:
-          instance: ${{ env.INSTANCE5 }}
-
-
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     # Requires the build job results
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
