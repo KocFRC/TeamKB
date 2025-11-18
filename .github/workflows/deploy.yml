@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Build Writerside docs using Docker
         uses: JetBrains/writerside-github-action@v4
@@ -134,7 +134,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: team24
 
@@ -144,7 +144,7 @@ jobs:
           args: unzip -qq ${{ env.ARTIFACT2 }}
 
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: team23
 
@@ -154,7 +154,7 @@ jobs:
           args: unzip -qq ${{ env.ARTIFACT1 }} -d team23
 
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: parents24
 
@@ -164,7 +164,7 @@ jobs:
           args: unzip -qq ${{ env.ARTIFACT3 }} -d parents24
 
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: club24
 
@@ -174,7 +174,7 @@ jobs:
           args: unzip -qq ${{ env.ARTIFACT4 }} -d club24
 
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: candidates24
 
