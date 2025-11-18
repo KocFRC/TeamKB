@@ -4,7 +4,7 @@
 
     <variables>
         <locale-code>tr-TR</locale-code>
-        <versions-switcher>https://static.kocfrc.org/kb/switcher.json</versions-switcher>
+        <versions-switcher>https://kocfrc.github.io/static/kb/switcher.json</versions-switcher>
         <header-logo>logo.png</header-logo>
         <color-preset>vivid</color-preset>
         <primary-color>halloween</primary-color>
